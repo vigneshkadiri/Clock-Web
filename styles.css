@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    margin: 0;
+    background-image: url('./alarm-clock-ai-generated.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1.5px);
+}
+
+.stopwatch {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-right: 40%;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #282c34;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(40, 44, 52, 0.3);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #dbffe5;
+    box-shadow: 0 0 20px rgba(96, 210, 130, 0.2);
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+    color: #fff;
+}
+
+#laps li {
+    background-color: #282c34;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(40, 44, 52, 0.6), 0 0 20px rgba(40, 44, 52, 0.4);
+}
